@@ -1,0 +1,48 @@
+# System-wide VERY nesessary packages
+amd-ucode
+less
+git
+
+# Fonts
+ttf-dejavu
+ttf-jetbrains-mono
+
+# CLI/TTY tools
+bat
+btop
+zoxide
+yazi
+toipe
+ncdu
+lazygit
+lazydocker
+gemini-cli
+
+# TTY
+fzf
+zsh
+
+# Other
+zen
+zed
+obs
+ghostty
+nekoray
+discord
+spotify
+ticktick
+telegram
+obsidian
+usbimager
+qbittorrent
+yandex-music
+
+# Python
+uv
+ruff
+ty
+
+# C++
+make
+cmake
+clang
