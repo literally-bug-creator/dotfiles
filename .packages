@@ -30,6 +30,7 @@ docker-compose
 zen
 zed
 obs
+vlc
 ghostty
 nekoray
 discord
@@ -38,8 +39,10 @@ ticktick
 telegram
 obsidian
 usbimager
+bitwarden
 qbittorrent
 yandex-music
+bitwarden-cli
 
 # Python
 uv
