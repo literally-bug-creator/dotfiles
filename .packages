@@ -1,4 +1,5 @@
 # System-wide VERY nesessary packages
+gnome
 amd-ucode
 less
 git
@@ -21,6 +22,10 @@ gemini-cli
 # TTY
 fzf
 zsh
+
+# Docker & Docker compose
+docker
+docker-compose
 
 # Other
 zen
