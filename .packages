@@ -1,5 +1,4 @@
 # System-wide VERY nesessary packages
-gnome
 amd-ucode
 less
 git
