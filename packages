@@ -1,0 +1,37 @@
+# System-wide VERY nesessary packages
+amd-ucode
+less
+git
+
+# CLI/TTY tools
+zsh
+fzf
+bat
+btop
+zoxide
+yazi
+ncdu
+
+# Docker & Docker compose
+docker
+docker-compose
+
+# Other
+zed
+vlc
+ghostty
+discord
+telegram-desktop
+obsidian
+bitwarden
+qbittorrent
+bitwarden-cli
+
+# Python
+uv
+ruff
+
+# C++
+make
+cmake
+clang
