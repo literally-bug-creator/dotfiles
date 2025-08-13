@@ -1,4 +1,7 @@
 {
+  "git_panel": {
+    "dock": "right"
+  },
   "show_edit_predictions": false,
 
   "auto_install_extensions": {
@@ -24,7 +27,7 @@
   "icon_theme": "Catppuccin Frappé",
 
   "terminal": {
-    "font_size": 20
+    "font_size": 14
   },
 
   "agent": {
@@ -38,5 +41,24 @@
   "telemetry": {
     "diagnostics": false,
     "metrics": false
+  },
+
+  "languages": {
+    "Python": {
+      "language_servers": ["pyright"]
+    }
+  },
+
+  "lsp": {
+    "pyright": {
+      "settings": {
+        "python.analysis": {
+          "diagnosticMode": "workspace"
+        },
+        "python": {
+          "pythonPath": ".venv/bin/python"
+        }
+      }
+    }
   }
 }
