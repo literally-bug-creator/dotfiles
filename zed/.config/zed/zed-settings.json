@@ -1,0 +1,64 @@
+{
+  "git_panel": {
+    "dock": "right"
+  },
+  "show_edit_predictions": false,
+
+  "auto_install_extensions": {
+    "markdown-oxide": true,
+    "docker-compose": true,
+    "git-firefly": true,
+    "dockerfile": true,
+    "ruby": true,
+    "make": true,
+    "basher": true,
+    "neocmake": true,
+    "latex": true
+  },
+
+  "ui_font_size": 16,
+  "buffer_font_family": "JetBrainsMono Nerd Font",
+  "buffer_font_size": 16,
+  "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "Ayu Dark"
+  },
+  "icon_theme": "Catppuccin Frappé",
+
+  "terminal": {
+    "font_size": 14
+  },
+
+  "agent": {
+    "model_parameters": [],
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "claude-sonnet-4-thinking"
+    }
+  },
+
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+
+  "languages": {
+    "Python": {
+      "language_servers": ["pyright"]
+    }
+  },
+
+  "lsp": {
+    "pyright": {
+      "settings": {
+        "python.analysis": {
+          "diagnosticMode": "workspace"
+        },
+        "python": {
+          "pythonPath": ".venv/bin/python"
+        }
+      }
+    }
+  }
+}
