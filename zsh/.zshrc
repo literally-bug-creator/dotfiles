@@ -62,7 +62,6 @@ eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
 
 # Envs
-export GEMINI_API_KEY="AIzaSyCJbjPbtbEpE-PyUNTxj_mKZKrToHPcs08"
 export TERM=xterm-256color
 export PATH="$PATH:/home/lbc/.local/share/gem/ruby/3.4.0/bin"
 
