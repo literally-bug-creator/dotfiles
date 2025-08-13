@@ -49,7 +49,6 @@ alias ls='ls -a --color'
 alias c='clear'
 alias lg='lazygit'
 alias ld='lazydocker'
-alias cat='bat'
 
 # Completion styling
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
@@ -62,5 +61,12 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
 
+# Envs
+export GEMINI_API_KEY="AIzaSyCJbjPbtbEpE-PyUNTxj_mKZKrToHPcs08"
+export TERM=xterm-256color
+export PATH="$PATH:/home/lbc/.local/share/gem/ruby/3.4.0/bin"
+
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+export PATH=~/.npm-global/bin:$PATH
